@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Sixtyfour&display=swap')
+
+
+
 /* Asterisk wildcard selector to override defalt styles added by browser */
 
 * {
@@ -23,7 +27,7 @@ header {
 
 /* Main content */
 main {
-    background-color: blueviolet;
+    background-color: rgb(194, 32, 21);
     /* Make mais element take up any surplus space to push footer down */
     flex: 1 0 auto;
 
