@@ -1,5 +1,4 @@
-
-/* Asterisk wildcard selector to override defalt styles added by browser */ 
+/* Asterisk wildcard selector to override defalt styles added by browser */
 
 * {
     padding: 0;
@@ -7,16 +6,30 @@
     box-sizing: border-box;
 }
 
+/* General Styles  */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* Generic Project Styles*/
+    color: #3a3a3a;
+}
+
+
 /* Header */
 header {
     background-color: blue;
 }
+
 /* Main content */
 main {
     background-color: blueviolet;
+    /* Make mais element take up any surplus space to push footer down */
+    flex: 1 0 auto;
+
 }
+
 /* Footer */
 footer {
     background-color: brown;
 }
-
