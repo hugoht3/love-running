@@ -14,7 +14,7 @@ body {
     flex-direction: column;
     /* Generic Project Styles*/
     color: #000000;
-    font-family: 'Lato' , sans-serif;
+    font-family: 'Lato', sans-serif;
 }
 
 
@@ -32,6 +32,21 @@ header a {
     text-decoration: none;
     color: inherit;
 }
+
+#menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+    list-style-type: none;
+    
+}
+#menu > li {
+    margin-bottom: 1em;
+}
+.active {
+border-bottom: 1px solid #3a3a3a;
+}
+
+
 
 h1 {
     font-family: 'Oswald', sans-serif;
