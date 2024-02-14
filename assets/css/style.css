@@ -14,6 +14,7 @@ body {
     flex-direction: column;
     /* Generic Project Styles*/
     color: #3a3a3a;
+    font-family: 'Lato' , sans-serif;
 }
 
 
@@ -24,7 +25,7 @@ header {
 
 /* Main content */
 main {
-    background-color: rgb(194, 32, 21);
+    background-color: rgb(22, 221, 228);
     /* Make mais element take up any surplus space to push footer down */
     flex: 1 0 auto;
 
