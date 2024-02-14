@@ -2,7 +2,8 @@
 <html lang="en">
 
 
-<!-- !!!!!!!!!!!!!!!!!! ONE MORE IMPORTANT COMMENT when deploying a page in github make sure the index.html is on the root file (''First''')-->
+<!-- !!!!!!!!!!!!!!!!!! ONE MORE IMPORTANT COMMENT when deploying a page in github make sure the index.html is on the root file (''First''') and that the PATHS of files are fixed
+THE LIVE SERVER AND THE DEPOYLED SERVER READ THE LINKS DIFERENLY-->
 <!-- rm .git/index.lock    in case you use commit  -a ( in case that is another process started and you cant use the terminal )-->
 <!-- Remenber that never to use on the terminal!!!! git commit -a !!! you got stuck once and took you 2 hours to solve-->
 
@@ -28,9 +29,9 @@
     <title>Love Running</title>
     <!-- Favicon-->
     <!-- Possible in the future when deploying the images wont load because the href will have to be ajusted (without the /assets bar that follows up)-->
-    <link rel="apple-touch-icon" sizes="180x180" href="../love-running/assets/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="../love-running/assets/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="../love-running/assets/favicon/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png">
     <!-- Stylesheet (CSS) link -->
 
     <!-- VERY IMPORTANT COMMENT BE SURE TO READ THIS   !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -41,7 +42,7 @@
     <link rel="icon" type="image/png" sizes="32x32" href="../assets/favicon/favicon-32x32.png">     <====== Example
     <link rel="icon" type="image/png" sizes="16x16" href="../assets/favicon/favicon-16x16.png">
     -->
-    <link rel="stylesheet" href="../love-running/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
 
 </head>
 
@@ -56,8 +57,8 @@
         <nav>
             <ul id="menu">
                 <li><a href="index.html" class="active">Home</a></li>
-                <li><a href="gallery.html">Gallery</a></li>
-                <li> <a href="signup.html">Sign up</a></li>
+                <li><a href=".devcontainer/gallery.html">Gallery</a></li>
+                <li> <a href=".devcontainer/signup.html">Sign up</a></li>
             </ul>
         </nav>
     </header>
