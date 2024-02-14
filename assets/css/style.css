@@ -88,11 +88,18 @@ h1 {
 
 /* Main content */
 main {
-    background-color: rgb(22, 221, 228);
     /* Make mais element take up any surplus space to push footer down */
     flex: 1 0 auto;
     margin-top: 40px;
 
+}
+
+/* Hero Section */
+#hero {
+
+    height: 600px;
+    width: 100%;
+    background: url("/assets/images/hero-image.webp") no-repeat center center/cover;
 }
 
 /* Footer */
