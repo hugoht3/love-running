@@ -13,7 +13,7 @@ body {
     display: flex;
     flex-direction: column;
     /* Generic Project Styles*/
-    color: #3a3a3a;
+    color: #000000;
     font-family: 'Lato' , sans-serif;
 }
 
@@ -28,8 +28,17 @@ header {
     box-shadow: 0 2px 2px red;
 }
 
+header a {
+    text-decoration: none;
+    color: inherit;
+}
+
 h1 {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: black;
+    font-size: x-large;
 }
 
 /* Main content */
