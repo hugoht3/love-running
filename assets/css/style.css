@@ -111,8 +111,48 @@ main {
     position: relative;
 }
 
-#cover-text>h2,
-#cover-text>h3 {
+/* text of main content */
+
+#reasons>h2 {
+    margin-top: 20px;
+    text-align: center;
+    font-size: xx-large;
+    margin-right: auto;
+    margin-left: auto;
+    width: 90%;
+    line-height: 42px;
+}
+
+
+
+#benefits {
+    margin: 20px;
+
+}
+
+#benefits p {
+    padding-left: 20px;
+    padding-right: 20px;
+    
+
+}
+
+#benefits-physical {
+    line-height: 20px;
+    
+}
+
+#feel-healthy, #feel-strong, #feel-free, #get-social {
+    margin-bottom: 20px;
+}
+
+hr {
+    border-top: 1px solid #3a3a3a;
+    margin: 5px 0;
+}
+
+
+#cover-text>h2, #cover-text>h3 {
     color: #ffffff;
 }
 
